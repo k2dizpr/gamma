@@ -1,4 +1,5 @@
 .gradient-text{display: table;color: #027FFF; background: radial-gradient(42.02% 151.25% at 90.24% -43.75%, #027FFF 0%, #0C2F83 100%);-webkit-background-clip: text;-webkit-text-fill-color: transparent;}
+.mailto{color: #DC002E;font-weight: bold; text-decoration: none;}
 /*/*/
 .sub-title{}
 .sub-title:before{content: '';height: 2px;width: 30px;float: left;margin-top: 16px;margin-right: 10px;background: -webkit-linear-gradient(left, #027FFF, #143EA2);background: -moz-linear-gradient(left, #027FFF, #143EA2);background: -o-linear-gradient(left, #027FFF, #143EA2);background: -ms-linear-gradient(left, #027FFF, #143EA2);}
@@ -117,7 +118,7 @@ form .form-ection input[type=submit], form .form-ection button{border: none;widt
 form .form-ection input[type=submit]:hover, form .form-ection button:hover{}
 form .form-ection input[type=submit]:active, form .form-ection button:active{}
 /*------------------------------------- form  end  -------------------*/
-.breadcrumb{}
+.breadcrumb{padding-bottom: 30px;}
 .breadcrumb ul{margin: 0;padding: 0;list-style: none;}
 .breadcrumb ul li{display: inline-block;padding-right: 1px;}
 .breadcrumb ul li:last-child{}
@@ -189,25 +190,24 @@ form .form-ection input[type=submit]:active, form .form-ection button:active{}
 .card__statistics-text .statistics_indicator span{color: #0F44B2; font-size: 3em; line-height: 1.3;}
 .card__statistics-text .statistics_description{}
 .card__statistics-text .statistics_description p{color: #565656; font-size: 1.125em; line-height: 1.3;}
+.section-statistics{padding: 0;}
+.section-statistics .row-statistics{padding: 45px 0;}
+.section-statistics .card__statistics{padding: 35px 0 35px;}
+.bg-grey .card__statistics_media:before{background: #F8F9F9;}
 /*------------------------------------- card__statistics  end  -------------------*/
+  
+.card__partner{}
+.card__partner-holder{margin: 0 0 30px;}  
+.card__partner_media-holder{    display: inline;}
+.card__partner_media{    display: table-cell;    vertical-align: middle;    height: 64px;}
+.card__partner_media .partner_logo{}
+.card__partner_media .partner_logo a{}
+/*------------------------------------- card__partner  end  -------------------*/                    
 .slick__slider{}
-.slick__slider .item{
-    outline: none !important;
-}
+.slick__slider .item{    outline: none !important;}
 .slick__slider .photo{}
-.slick__slider .item img, .page-content-slider .slick__slider .photo img{
-    outline: none !important;
-}
-.slick__slider .slick-prev, .slick__slider .slick-next{
-    width: 40px;
-    height: 40px;
-    background: #fff;
-    z-index: 50;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -khtml-border-radius: 50%;
-    border-radius: 50%;
-}
+.slick__slider .item img, .page-content-slider .slick__slider .photo img{    outline: none !important;}
+.slick__slider .slick-prev, .slick__slider .slick-next{width: 40px;height: 40px;background: #fff;z-index: 50;-moz-border-radius: 50%;-webkit-border-radius: 50%;-khtml-border-radius: 50%;border-radius: 50%;}
 .slick__slider .slick-prev{left: 5px;}
 .slick__slider .slick-prev:before{background: url('../images/slick-prev.svg') no-repeat center center;content: '';width: 40px;height: 40px;display: block;}
 .slick__slider .slick-next{    right: 5px;}
@@ -225,8 +225,6 @@ form .form-ection input[type=submit]:active, form .form-ection button:active{}
 .page-content-slider .slick__slider{}
 .page-content-slider .slick__slider .item{opacity: 0.3; -webkit-transition: all 0.5s ease;    -moz-transition: all 0.5s ease;    -o-transition: all 0.5s ease;    transition: all 0.5s ease;}
 .page-content-slider .slick__slider .item.slick-center{opacity: 1;}
-
-
 .page-content-slider .slick__slider .photo{padding: 0 3px;  margin: 0;}
 .page-content-slider .slick__slider .item img, .page-content-slider .slick__slider .photo img{}
 @media screen and (min-width: 768px) { .div{}/* Medium devices (tablets, 768px and up) */
