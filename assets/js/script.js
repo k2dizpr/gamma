@@ -97,6 +97,21 @@ $(document).ready(function() {
     
 
 $(document).ready(function() {
+    $('.front-slick').slick({
+        dots: true,       
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        fade: true,
+    }); // front-slick 
+    $('.slider_bottom-slick').slick({
+        dots: false,       
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    }); // slider_bottom-slick 
+    
+    
     $('.page-slick').slick({
         dots: false,
        centerMode: true,
@@ -129,5 +144,6 @@ $(document).ready(function() {
             }        
         ]
     }); // page-slick 
+    
 });
 

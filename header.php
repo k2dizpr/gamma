@@ -21,7 +21,7 @@
         <header class="header" id="header">
             <div class="container">
                 <div class="row">
-                    <div class="col-6 col-sm-3 col-md-3 aligne-center sm-aligne-left">
+                    <div class="col-6 col-sm-3 col-md-3">
                         <div class="logo">
                             <a href=""><img src="assets/images/logo.svg"/></a>
                         </div>
