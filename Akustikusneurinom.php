@@ -28,7 +28,7 @@
                     </div> 
                     <div class="col col-md-6 col-lg-5">
                         <div class="page__title-block">
-                            <h1>Der Einsatz von <br />Gamma Knife bei einem <span class="gradient-text">Hypophysenadenom</span></h1>    
+                            <h1>Der Einsatz von <br />Gamma Knife bei einem <span class="gradient-text">Akustikusneurinom</span></h1>    
                             <h2>Schnelle, zuverlässige und sichere Behandlung</h2>                                      
                         </div>                                                                                                                                                                                                                                                                
                     </div>	

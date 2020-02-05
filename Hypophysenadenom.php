@@ -20,7 +20,7 @@
             <div class="page-content ">    
                 <div class="row">
                     <div class="col col-md-6 col-lg-7 f-right md-f-right lg-f-right">
-                        <div class="page__content-block">   
+                        <div class="page__content-block_lphoto">   
                             <div class="photo">
                                 <img src="upload/hypophysenadenom.png"/>                            
                             </div>                                                    
@@ -208,7 +208,7 @@
                             <p>Ziel jeder radiochirurgischen Behandlung mit dem Gamma Knife ist es ein weiterwachsen des Tumors künftig zu verhindern. Dieses Ziel wird in mehr als 90% der Fälle durch eine einmalige Behandlung erreicht.</p>
                             <p>Bei hormonaktiven Hypophysenadenomen wird darüber hinaus angestrebt, die erhöhte Hormonproduktion zu normalisieren. Dieses Ziel wird statistisch bei Morbus Cushing Patienten in fast 70% der Fälle erreicht, bei Patienten mit Prolaktinom in ca. 60% der Fälle und bei Patienten mit Akromegalie in etwa der Hälfte der Fälle. Nebenwirkungen durch die Behandlung selbst werden dabei in weniger als 3% der Fälle beobachtet, eine weitere Verschlechterung der Hormonwerte in etwa 10% der Fälle.</p>
                             <p> Die Radiochirurgie ist in den vorgenannten Fällen immer dann möglich, wenn der Rest- oder Rezidivtumor einen ausreichenden Abstand zum optischen System aufweist, gegenüber den umliegenden Strukturen gut abgegrenzt ist und eine gewisse Größe nicht überschreitet. In der Regel ist das gegeben. Sollte ein Tumor an das optische System (Chiasma Optikum, Sehnerv) heranreichen, kann ggf. eine sogenannte hypofraktionierte radiochirurgische Behandlung erfolgen.</p>
-                            <h5>Nachsorge bei Gamma Knife</h5>
+                            <h6>Nachsorge bei Gamma Knife</h6>
                             <p>Zur notwendigen Nachsorge nach Radiochirurgie gehören anfänglich kernspintomografische Kontrollen alle sechs Monate sowie engmaschige endokrinologische Kontrollen alle 3 Monate und ophthalmologische Kontrollen alle 6 Monate. Das Ziel einer Nachsorge, sowohl nach Radiochirurgie, als auch nach einer Operation ist es ein potentielles Tumorrezidiv oder eine hormonelle Beeinträchtigung frühzeitig zu erkennen. Nach Radiochirurgie wie auch nach konventioneller Bestrahlung sollen darüber spätere Nebenwirkungen ausgeschlossen werden. Daher sollte die Nachsorge grundsätzlich lebenslang erfolgen. Eine Rehabilitationsbehandlung nach Radiochirurgie (REHA) ist nicht erforderlich. </p>
                         </div>
                     </div>                                                         

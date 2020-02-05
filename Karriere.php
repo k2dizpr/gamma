@@ -50,9 +50,9 @@
         <div class="page-content page-content_karriere">    
             <div class="row">
                 <div class="col col-mdd-5 col-lg-5"> 
-                    <div class="page__title-block">
-                        <h2>Wir suchen gerade:</h2>                                            
-                    </div>                                                                                                                                                                                                                                                                                  
+                    
+                        <h2 style="font-weight: normal;">Wir suchen gerade:</h2>                                            
+                                                                                                                                                                                                                                                                                                    
                 </div>	
                 <div class="col col-mdd-7 col-lg-7">
                     <div class="page__content-block">

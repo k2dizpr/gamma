@@ -7,9 +7,8 @@
                 <div class="breadcrumb">
                     <ul>
                         <li><a href="/">Startseite</a></li>
-                        <li><a href="/">Über uns</a></li>
-                        <li><a href="/">Team</a></li>                        
-                        <li><span>Gerhard Horstmann</span></li>                                
+                        <li><a href="/">Über uns</a></li>                                          
+                        <li><span>Erfolge</span></li>                                
                     </ul>
                 </div>
             </div>

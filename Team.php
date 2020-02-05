@@ -23,7 +23,7 @@
                     </div>                                                                                                                                                                                                                                                                
                 </div>	
                 <div class="col col-md-6 col-lg-6">
-                    <div class="page__content-block">                        
+                    <div class="page__content-block page__content-size18">                        
                         <p>Bei uns sind Sie nicht allein – weder vor, während, noch nach der eigentlichen Behandlung. Wir zwar ein medizinisches Hochleistungszentrum, doch gilt unser Interesse neben der fachärztlichen Versorgung im besonderen Maße Ihrem Wohlbefinden.</p>
                     </div>                                                         
                 </div>                        
@@ -36,31 +36,31 @@
                 <div class="team-list_item">
                     <div class="photo"><a href="#"><img src="upload/team1.jpg"/></a></div>
                     <div class="name">
-                        <a href="#"><span class="job">Dr. med.</span>Gerhard A. Horstmann</a>
+                        <a href="#"><span class="job">Dr. med.</span><br />Gerhard A. Horstmann</a>
                     </div>
                 </div>
                 <div class="team-list_item">
                     <div class="photo"><a href="#"><img src="upload/team2.jpg"/></a></div>
                     <div class="name">
-                        <a href="#"><span class="job">Dr. med.</span>Otto Bundschuh</a>
+                        <a href="#"><span class="job">Dr. med.</span><br />Otto Bundschuh</a>
                     </div>
                 </div>
                 <div class="team-list_item">
                     <div class="photo"><a href="#"><img src="upload/team3.jpg"/></a></div>
                     <div class="name">
-                        <a href="#"><span class="job">Dr. med.</span>Albertus T. C. J. van Eck</a>
+                        <a href="#"><span class="job">Dr. med.</span>Albertus T. C. <br />J. van Eck</a>
                     </div>
                 </div>
                 <div class="team-list_item">
                     <div class="photo"><a href="#"><img src="upload/team4.jpg"/></a></div>
                     <div class="name">
-                        <a href="#"><span class="job">Dr. med.</span>Daniel Skutta</a>
+                        <a href="#"><span class="job">Dr. med.</span><br />Daniel Skutta</a>
                     </div>
                 </div>
                 <div class="team-list_item">
                     <div class="photo"><a href="#"><img src="upload/team5.jpg"/></a></div>
                     <div class="name">
-                        <a href="#"><span class="job">Dr. med.</span>Götz Lütjens</a>
+                        <a href="#"><span class="job">Dr. med.</span><br />Götz Lütjens</a>
                     </div>
                 </div>    
             </div>                                                                                                                                                                                                                                                                                                                           

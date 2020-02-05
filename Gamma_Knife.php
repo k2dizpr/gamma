@@ -23,7 +23,7 @@
                     </div>                                                                                                                                                                                                                                                                
                 </div>	
                 <div class="col col-md-6 col-lg-7">
-                    <div class="page__content-block">
+                    <div class="page__content-block_lphoto">
                         <div class="photo">
                             <img src="upload/Gamma_Knife.jpg"/>                            
                         </div>                             

@@ -18,7 +18,7 @@
         <div class="page-content">    
             <div class="row">
                 <div class="col col-md-6 f-right md-f-right">
-                    <div class="photo aligne-right">
+                    <div class="photo aligne-right" style="margin: 0 -5px;">
                         <img src="upload/hirn.jpg"/>                            
                     </div>                                                                             
                 </div>   
