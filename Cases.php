@@ -1,14 +1,13 @@
 
 <?php include 'header.php';?>                                               
-<main class="page" id="page">
+<main class="page" id="cases">
     <div class="container ">
         <div class="row">
             <div class="col">
                 <div class="breadcrumb">
                     <ul>
-                        <li><a href="/">Startseite</a></li>
-                        <li><a href="/">Über uns</a></li>                        
-                        <li><span>Geschichte</span></li>                                
+                        <li><a href="/">Startseite</a></li>                       
+                        <li><span>Akutelles</span></li>                                
                     </ul>
                 </div>
             </div>

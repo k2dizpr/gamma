@@ -1,4 +1,34 @@
+/*	$(window).scroll(function () {
+ 			if ($(this).scrollTop() > 150) {
+ 				$('.t_header_1').addClass('min');
+ 			} else {
+ 				$('.t_header_1').removeClass('min');
+ 			}
+ 		});
+        
+	if ($(window).width() >= 1200) {
+ 		$(window).scroll(function () {
+ 			if ($(this).scrollTop() > 150) {
+ 				$('.t_header_1').addClass('min');
+ 			} else {
+ 				$('.t_header_1').removeClass('min');
+ 			}
+ 		});
+ 	}
 
+
+$(document).ready(function() {
+$(".btn-open_meny").click(function (){               
+    if($(this).hasClass('active')){
+        $(this).removeClass("active");
+        $('.l_web_column_101247').fadeOut()
+         
+    }else{
+       $(this).addClass("active"); 
+       $('.l_web_column_101247').fadeIn()
+    }       
+});
+*/
 //  youtube player-script start
 function r(f){/in/.test(document.readyState)?setTimeout('r('+f+')',9):f()}
 r(function(){
@@ -47,6 +77,21 @@ r(function(){
 //  youtube player-script start
 
 $(document).ready(function() {
+    $("a.page-nav").click(function () {
+        var elementClick = $(this).attr("href")
+        var destination = $(elementClick).offset().top;
+        jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 1000);
+        return false;
+    });
+});
+        
+$(document).ready(function() {
+    
+ 
+ 	
+ 
+
+    
     
     function closeHeaderBlock(){
         $('#navigation').removeClass("active");
@@ -133,6 +178,39 @@ $(document).ready(function() {
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }        
+        ]
+    }); // page-slick 
+    
+    $('.uber_uns_slider-slick').slick({
+        dots: false,
+       centerMode: true,
+        speed: 300,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+              }
+            },
+            {
+              breakpoint: 767,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
               }
             },
             {

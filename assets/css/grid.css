@@ -77,7 +77,7 @@ section{}
 .row-column3{}
 .row-column4{}
 .row{padding: 0; clear: both;}
-.col{padding: 7px;}
+.col{padding: 15px;}
 .row-column1 .col{clear: both;}
 .row-column2 .col:nth-child(2n+1){clear: both;}
 .row-column3 .col:nth-child(3n+1){clear: both;}
