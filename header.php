@@ -61,7 +61,7 @@
                             </div>
                         </div>                                                                      
                     </div> 
-                    <div class="col-12 col-sm-5 col-md-6 sm-f-right md-f-right  aligne-center sm-aligne-right">
+                    <div class="col-12 col-sm-5 col-md-6 sm-f-right md-f-right  aligne-center sm-aligne-right no-display sm-display">
                         <div class="header__contacts">
                             <div class="phone-line"><a href="tel:+492151825600"><span>+49 2151 82 560-0</span></a></div>                
                             <div class="email-line"><a href="mailto:kontakt@gamma-knife.de"><span>kontakt@gamma-knife.de</span></a></div>

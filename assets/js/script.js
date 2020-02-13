@@ -223,5 +223,31 @@ $(document).ready(function() {
         ]
     }); // page-slick 
     
+    $('.patientenerfahrung_slider-slick').slick({
+        dots: false,
+        centerMode: true,
+        speed: 300,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: false
+              }
+            },
+            {
+              breakpoint: 767,
+              settings: {
+                centerMode: false,              
+              }
+            },
+                  
+        ]
+    }); // page-slick 
+    
 });
 

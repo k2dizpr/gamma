@@ -20,7 +20,7 @@
             <div class="page-content ">    
                 <div class="row">
                     <div class="col col-md-6 col-lg-7 f-right md-f-right lg-f-right">
-                        <div class="page__content-block">   
+                        <div class="page__content-block_lphoto">   
                             <div class="photo">
                                 <img src="upload/akustikusneurinom.jpg"/>                            
                             </div>                                                    

@@ -3,7 +3,7 @@
 /*/*/
 .sub-title{}
 .sub-title:before{content: '';height: 2px;width: 30px;float: left;margin-top: 16px;margin-right: 10px;background: -webkit-linear-gradient(left, #027FFF, #143EA2);background: -moz-linear-gradient(left, #027FFF, #143EA2);background: -o-linear-gradient(left, #027FFF, #143EA2);background: -ms-linear-gradient(left, #027FFF, #143EA2);}
-.sub-title p{margin: 0; font-size: 1.125em;}
+.sub-title p{margin: 0; font-size: 1.125em; font-family: 'PT Serif', serif;}
 /*/*/
 .photo{margin-bottom: 2.5em;margin-top: 7px;}
 .photo img{max-width: 100%; -moz-border-radius: 8px;-webkit-border-radius: 8px;-khtml-border-radius: 8px; border-radius: 8px;}
@@ -143,6 +143,7 @@ form .form-ection input[type=submit]:active, form .form-ection button:active{}
 /*------------------------------------- page__title-block  end  -------------------*/
 .page__content-block{  padding-top: 5px;  max-width: 720px;}
 .page__content-block h1{margin: -10px 0 1.1em;}
+.page__content-block h2{font-family: 'PT Serif', serif; font-weight: normal; font-size: 1.875em; line-height: 1.2;}
 .page__content-block_left{max-width: 592px}
 @media screen and (min-width: 1480px) { .div{}
 .page__content-block_lphoto{width: 847px;}
@@ -161,6 +162,8 @@ form .form-ection input[type=submit]:active, form .form-ection button:active{}
 .card__text .card__text-data:before{content: '';height: 2px;width: 20px;background: -webkit-linear-gradient(left, #027FFF, #143EA2);background: -moz-linear-gradient(left, #027FFF, #143EA2);background: -o-linear-gradient(left, #027FFF, #143EA2);background: -ms-linear-gradient(left, #027FFF, #143EA2);float: left;margin-top: 12px;margin-right: 10px;}
 .card__text .card__text-data span.s1{font-size: 1.1em;font-family: 'PT Serif', serif;}
 .card__text .card__text-data span.s2{font-size: 0.85em;}
+.card__text .card__text-u_name{margin-bottom: 5px;}
+.card__text .card__text-u_name strong{font-size: 1.125em; line-height: 1.8;}
 .card:hover .card__text .card__text-data span{color: #0F44B2;}
 .card__text-body{height: 75px;  overflow: hidden; margin-bottom: 15px;}
 .card__text h4{font-family: 'PT Serif', serif;line-height: 1.5;font-weight: normal;margin: 0 0 7px;overflow: hidden; max-height: 54px;}
@@ -259,7 +262,7 @@ form .form-ection input[type=submit]:active, form .form-ection button:active{}
 @media screen and (min-width: 1290px) { .div{}/* Medium devices (tablets, 768px and up) */
 .page-content-slider .slick__slider .photo{ padding: 0 20px;}
 .page-content-slider .slider-holder{    width: 2380px;margin-left: -830px;}
-.page-content-slider .slider-aligne{width: 760px;margin-left: 43.066666%;padding-left: 212px;padding: 0 0px;}
+.page-content-slider .slider-aligne{width: 760px;margin-left: 43.566666%;padding-left: 212px;padding: 0 0px;}
 .page-content-slider .slick__slider .slick-prev {    left: 820px;}
 .page-content-slider .slick__slider .slick-next{    right: 820px;}
 }
@@ -271,7 +274,7 @@ form .form-ection input[type=submit]:active, form .form-ection button:active{}
 
 }
 @media only screen and (min-width: 1800px ) {.div{}   /* full desktops (desktops, >1800px and up) */
-.page-content-slider .slider-holder{width: 2280px;margin-left: -774px;}
+.page-content-slider .slider-holder{margin-left: -810px;}
 }
 /*------------------------------------- page-content-slider  end  -------------------*/
 
@@ -279,49 +282,40 @@ form .form-ection input[type=submit]:active, form .form-ection button:active{}
 .review-item{position: relative;}
 .review-item-body{position: relative;}
 .review-item-body:before{content: "";box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);position: absolute;width: 100%;height: 100%;border-radius: 10px 10px 10px 0;}
-.review-item-body:after{
-    content: "";
-    background: url('../images/rev_triandel.png') no-repeat center center;
-    position: absolute;
-    bottom: -50px;
-    width: 57px;
-    height: 50px;
-    left: -16px;
-    }
-.review-item-body_holder{
-    padding: 33px 40px;
-    position: relative;
-    z-index: 2;
-}
+.review-item-body:after{content: "";background: url('../images/rev_triandel.png') no-repeat center center;position: absolute;bottom: -50px;width: 57px;height: 50px;left: -16px;    }
+.review-item-body_holder{padding: 33px 40px;position: relative;z-index: 2;}
 .review-item-body_holder .text{}
 .review-item-body_holder p{color: #383838; margin: 0;}
 .review-item-body_holder em{}
 
 .review-item-body_holder .rating{background: url('../images/star_p.svg') repeat-x left center;width: 90px;    margin: 25px 0 0;}
 .review-item-body_holder .rating span{background: url('../images/star_b.svg') repeat-x left center;height: 18px;display: block;}
-.review-item-foot{
-    padding-top: 30px;
-}
-.review-item-foot .rev_u_photo{
-    float: left;
-    width: 60px;
-    margin: 0 20px 0 41px;
-}
+.review-item-foot{padding-top: 30px;}
+.review-item-foot .rev_u_photo{float: left;width: 60px;margin: 0 20px 0 41px;}
 .review-item-foot .rev_u_photo img{-moz-border-radius: 10px;-webkit-border-radius: 10px;-khtml-border-radius: 10px; border-radius: 10px;}
-.review-item-foot .rev_u_data{
-    display: table-cell;
-    height: 60px;
-    vertical-align: middle;
-}
+.review-item-foot .rev_u_data{    display: table-cell;    height: 60px;    vertical-align: middle;}
 .review-item-foot .rev_u_name{}
-.review-item-foot .rev_u_name h6, .review-item-foot .rev_u_name p{
-    color: #383838;
-    font-size: 1em;
-}
+.review-item-foot .rev_u_name h6, .review-item-foot .rev_u_name p{    color: #383838;  font-weight: 700;  font-size: 1em;}
 .review-item-foot .rev_u_action{}
 .review-item-foot .rev_u_action a{}
 .review-item-foo .btn-more:after {    background: url(../images/red_angel.svg) no-repeat center center;}
-.review-item-foot .rev_u_action a:hover{}    
+.review-item-foot .rev_u_action a:hover{}   
+
+.reviews_list{}
+.reviews_list .col{}
+.reviews_list .review-item{margin-bottom: 50px;}
+
+@media screen and (min-width: 768px) { .div{}
+    .reviews_list{}
+    .reviews_list .col{} 
+    .reviews_list .col:nth-child(2n+1){clear: both;}  
+}
+@media screen and (min-width: 1100px) { .div{}
+    .reviews_list{    margin: 0 -5px;}
+    .reviews_list .col:nth-child(2n+1){clear: none;}
+    .reviews_list .col:nth-child(3n+1){clear: both;}  
+    .reviews_list .review-item{    padding: 0 5px;}
+}
 /*------------------------------------- review-item  end  -------------------*/
  
 .page_bottom__offer{

@@ -114,7 +114,8 @@
         </div>                                                     
     </footer><!-- .footer -->
                   
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|PT+Serif&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
         
     <script type="text/javascript" src="libs/jquery-1.8.2.min.js"></script>
